@@ -2,7 +2,7 @@ body {
     font-family: 'Bitter', serif;
     font-family: 'DM Serif Display', serif;
 
-
+    max-width: 100%;
     margin: 0;
 }
 
@@ -35,7 +35,7 @@ h1 {
 .fast-section {
     padding-top: 6%;
     text-align: center;
-    max-width: 70%;
+    width: 70%;
     margin: auto;
 }
 
@@ -67,7 +67,37 @@ h2 {
 
 }
 
-.one-fivet h3 {
+h3 {
     font-size: 2rem;
+
+}
+
+.second-section {
+    text-align: center;
+    padding-top: 8rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.one-thard {
+    margin: 1rem;
+    box-sizing: border-box;
+    text-align: justify;
+    border-radius: 7px;
+}
+
+#one-thard-div1 {
+    background-color: aqua;
+    padding: 12px;
+}
+
+#one-thard-div2 {
+    background-color: beige;
+    padding: 12px;
+}
+
+#one-thard-div3 {
+    background-color: rgb(252, 221, 183);
+    padding: 12px;
 
 }
